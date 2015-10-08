@@ -15,7 +15,7 @@ var DOCUMENTATION_TOP =
   'You will need the Sublime [Package Manager](https://sublime.wbond.net/installation).\n\n' +
   '- Open the command palette: `⌘+shift+p` on MacOS/Linux, `ctrl+shift+p` on Windows\n\n' +
   '- type `install`, select `Package Control: Install Package`\n\n' +
-  '- type `React`, select `ReactJS`\n\n' +
+  '- type `React`, select `React ES6 Snippets`\n\n' +
   '## Usage\n\n' +
   '### Syntax highlighting\n\n' +
   '*Syntax highlighting is no longer provided by this packages*. We recommend that you use ([babel-sublime](https://github.com/babel/babel-sublime)) instead.\n\n' +

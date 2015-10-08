@@ -24,7 +24,7 @@ You will need the Sublime [Package Manager](https://sublime.wbond.net/installati
 
 - type `install`, select `Package Control: Install Package`
 
-- type `React`, select `ReactJS`
+- type `React`, select `React ES6 Snippets`
 
 ## Usage
 
