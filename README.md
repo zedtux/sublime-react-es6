@@ -1,8 +1,10 @@
 # sublime-react-es6
 
-This is a fork of Facebook's original ReactJS Sublime Package.
+This is a fork of the fork (forkception) of Facebook's original ReactJS Sublime Package 
 
-The main changes I've made include:
+The main changes include:
+
+- Supporting [standard](https://github.com/feross/standard)
 
 - Converting function declarations to the new ES6 shorthand.
 
@@ -64,8 +66,6 @@ It's easy! Simply activate snippets by typing a mnemonic followed by TAB.
     gdp→  static defaultProps = { ... } 
 
     gis→  getInitialState: fn() { return {...} } 
-
-    ism→  isMounted()
 
   props→  this.props.
 
