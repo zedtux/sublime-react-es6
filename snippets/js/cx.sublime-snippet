@@ -2,7 +2,7 @@
     <content><![CDATA[
 cx({
 	$1: $2
-});
+})
 ]]></content>
     <tabTrigger>cx</tabTrigger>
     <scope>source.js</scope>

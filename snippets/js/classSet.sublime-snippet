@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-import cx from 'classnames';
+import cx from 'classnames'
 ]]></content>
     <tabTrigger>cs</tabTrigger>
     <scope>source.js</scope>
