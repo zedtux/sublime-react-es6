@@ -2,7 +2,7 @@
     <content><![CDATA[
 this.props.${1}
 ]]></content>
-    <tabTrigger>props</tabTrigger>
+    <tabTrigger>tp</tabTrigger>
     <scope>source.js</scope>
     <description>React: this.props.</description>
 </snippet>

@@ -4,7 +4,7 @@ static defaultProps = {
 	${1}: ${2}
 }
 ]]></content>
-    <tabTrigger>gdp</tabTrigger>
+    <tabTrigger>sdp</tabTrigger>
     <scope>source.js</scope>
     <description>React: static defaultProps = { ... } </description>
 </snippet>

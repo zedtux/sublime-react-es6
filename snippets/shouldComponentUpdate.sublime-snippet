@@ -6,5 +6,5 @@ shouldComponentUpdate (nextProps, nextState) {
 ]]></content>
     <tabTrigger>scu</tabTrigger>
     <scope>source.js</scope>
-    <description>React: shouldComponentUpdate: fn(np, ns) { ... }</description>
+    <description>React: shouldComponentUpdate: fn (np, ns) { ... }</description>
 </snippet>
