@@ -20,9 +20,11 @@ It's easy! Simply activate snippets by typing a mnemonic followed by TAB.
 
    cwun→  componentWillUnmount: fn () { ... }
 
-    scu→  shouldComponentUpdate: fn (np, ns) { ... }
+   cwun→  componentWillUnmount: fn () { ... }
 
     sdp→  static defaultProps = { ... } 
+
+    sgd→  static getDerivedStateFromProps () { ... }
 
     spt→  static propTypes { ... }
 
@@ -30,6 +32,6 @@ It's easy! Simply activate snippets by typing a mnemonic followed by TAB.
 
      tp→  this.props.
 
-    tst→  this.setState({ ... })
+    tss→  this.setState({ ... })
 
 ```
