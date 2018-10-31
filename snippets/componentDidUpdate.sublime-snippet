@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+componentDidUpdate (prevProps, prevState) {
+	${1}
+}
+]]></content>
+    <tabTrigger>cdu</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: componentDidUpdate: fn () { ... }</description>
+</snippet>

@@ -18,6 +18,8 @@ It's easy! Simply activate snippets by typing a mnemonic followed by TAB.
 
     cdm→  componentDidMount: fn () { ... }
 
+    cdu→  componentDidUpdate: fn () { ... }
+
    cwun→  componentWillUnmount: fn () { ... }
 
    cwun→  componentWillUnmount: fn () { ... }
