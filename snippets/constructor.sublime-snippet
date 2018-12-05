@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+constructor (props) {
+  super(props)
+  
+  this.state = {
+    ${1}
+  }
+}
+]]></content>
+    <tabTrigger>cst</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: constructor: fn () { ... }</description>
+</snippet>
