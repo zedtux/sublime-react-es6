@@ -14,7 +14,7 @@ ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}.propTypes = {
 
 export default ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}
 ]]></content>
-    <tabTrigger>rcc</tabTrigger>
+    <tabTrigger>rfc</tabTrigger>
     <scope>source.js</scope>
     <description>React: Stateless Functional Component</description>
 </snippet>
