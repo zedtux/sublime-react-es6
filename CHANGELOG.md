@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Changed
 - [react_component] Moves the export instruction to the end of the file
+- [react_redux_component] Removes the `mapStateToProps` function
+- [react_redux_component] Added `dispatch` to the `propTypes` 
 
 ## [1.0.0] - 2020-11-19
 ### Added

@@ -4,8 +4,9 @@ import React from 'react'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 
-export class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends React.Component {
+class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends React.Component {
   static propTypes = {
+    dispatch: PropTypes.func.isRequired,
     ${2:name}: PropTypes.${3:string}
   }
 
@@ -16,10 +17,7 @@ export class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends React.Component
   }
 }
 
-const mapStateToProps = ({  }) => ({ })
-
-
-export default connect(mapStateToProps)(${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}})
+export default connect()(${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}})
 ]]></content>
     <tabTrigger>rrc</tabTrigger>
     <scope>source.js</scope>
