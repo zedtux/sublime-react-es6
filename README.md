@@ -18,8 +18,8 @@ The goal is to keep it fresh and update to date to how zedtux uses React
 It's easy! Simply activate snippets by typing a mnemonic followed by TAB.
 
 ### Documentation of available snippets:
-```
 
+```
     cdm→  componentDidMount: fn () { ... }
 
     cdu→  componentDidUpdate: fn () { ... }
@@ -29,6 +29,14 @@ It's easy! Simply activate snippets by typing a mnemonic followed by TAB.
    cwun→  componentWillUnmount: fn () { ... }
 
    cwun→  componentWillUnmount: fn () { ... }
+
+    mstp→ const mapStateToProps = ({ ... }) => ({ ... })
+
+    rcc → React Component Class
+
+    rfc → React Stateless Functional Component
+
+    rrc → Redux React Class
 
     sdp→  static defaultProps = { ... } 
 
@@ -41,5 +49,4 @@ It's easy! Simply activate snippets by typing a mnemonic followed by TAB.
      tp→  this.props.
 
     tss→  this.setState({ ... })
-
 ```
