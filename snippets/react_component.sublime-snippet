@@ -3,7 +3,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-export default class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends React.Component {
+class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends React.Component {
   static propTypes = {
     ${3:name}: PropTypes.${4:string}
   }
@@ -18,6 +18,8 @@ export default class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends React.C
     )
   }
 }
+
+export default ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}
 ]]></content>
     <tabTrigger>rcc</tabTrigger>
     <scope>source.js</scope>
