@@ -1,9 +1,9 @@
 {
   "name": "sublime-react-es6",
-  "version": "1.3.0",
-  "author": "Curtis M. Humphrey, Ph.D.",
+  "version": "1.0.0",
+  "author": "Guillaume Hain",
   "license": "MIT",
-  "description": "Sublime Text snippets for ReactJS",
+  "description": "Sublime Text zedtux' snippets for ReactJS",
   "scripts": {
     "build-docs": "node ./generateReadme.js",
     "test": "echo \"Error: no test specified\" && exit 0",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CurtisHumphrey/sublime-react-es6.git"
+    "url": "https://github.com/zedtux/sublime-react-es6.git"
   },
   "dependencies": {
     "standard-version": "^4.3.0"

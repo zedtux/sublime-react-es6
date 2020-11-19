@@ -2,12 +2,16 @@
 
 This is a fork of NicoSantangelo/sublime-react-es6 Sublime Package 
 
-The goal is to keep it fresh and update to date to how Curtis' uses React
+The goal is to keep it fresh and update to date to how zedtux uses React
 
 ## Installation
 
-Install the React package via Sublime's Package Manager via url
-```https://github.com/CurtisHumphrey/sublime-react-es6.git```
+1. `CTRL + SHIFT + P`
+2. Search `Add Repository`
+3. Enter the URL `https://github.com/zedtux/sublime-react-es6.git` and hit `ENTER`
+4. `CTRL + SHIFT + P`
+5. Search `Install Package` and search the `sublime-react-es6` package
+6. Select it and hit `ENTER`
 
 ## Usage
 

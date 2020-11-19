@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react'
+import PropTypes from 'prop-types'
+
+const ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} = (props) => {
+  return (
+    <${2:div}></${2:div}>
+  )
+}
+
+${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}.propTypes = {
+}
+
+export default ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}
+]]></content>
+    <tabTrigger>rcc</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: Stateless Functional Component</description>
+</snippet>

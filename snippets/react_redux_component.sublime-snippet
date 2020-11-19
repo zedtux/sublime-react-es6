@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react'
+import { connect } from 'react-redux'
+import PropTypes from 'prop-types'
+
+export class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends React.Component {
+  static propTypes = {
+    ${2:name}: PropTypes.${3:string}
+  }
+
+  render() {
+    return (
+      <${4:div}></${4:div}>
+    )
+  }
+}
+
+const mapStateToProps = ({  }) => ({ })
+
+
+export default connect(mapStateToProps)(${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}})
+]]></content>
+    <tabTrigger>rrc</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: redux component skeleton</description>
+</snippet>
